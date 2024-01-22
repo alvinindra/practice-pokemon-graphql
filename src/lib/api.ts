@@ -1,5 +1,5 @@
-const API_URL =
-  "https://beta.pokeapi.co/graphql/v1beta"
+export const API_URL =
+  "https://graphql-pokeapi.graphcdn.app/"
 
 async function fetchAPI(query: string,
   variables?: Record<string, any>) {
