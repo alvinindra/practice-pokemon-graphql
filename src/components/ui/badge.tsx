@@ -15,6 +15,7 @@ const badgeVariants = cva(
         destructive:
           'border-transparent bg-destructive text-destructive-foreground hover:bg-destructive/80',
         outline: 'text-foreground',
+        normal: 'border-transparent bg-primary text-primary-foreground',
         grass: 'border-transparent bg-green-500 text-white',
         poison: 'border-transparent bg-purple-500 text-white',
         water: 'border-transparent bg-blue-500 text-white',
@@ -26,6 +27,10 @@ const badgeVariants = cva(
         ghost: 'border-transparent bg-blue-100 text-black',
         dragon: 'border-transparent bg-red-900 text-white',
         steel: 'border-transparent bg-gray-400 text-white',
+        rock: 'border-transparent bg-gray-500 text-white',
+        fighting: 'border-transparent bg-red-700 text-white',
+        psychic: 'border-transparent bg-indigo-500 text-white',
+        fairy: 'border-transparent bg-green-300 text-black',
       },
     },
     defaultVariants: {
