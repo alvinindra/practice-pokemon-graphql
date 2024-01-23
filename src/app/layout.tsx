@@ -7,7 +7,7 @@ import { ThemeProvider } from '@/components/ui/providers'
 import { ApolloProvider } from '@apollo/client'
 import client from '@/lib/apolloClient'
 
-export const fontSans = FontSans({
+const fontSans = FontSans({
   subsets: ['latin'],
   variable: '--font-sans',
 })
